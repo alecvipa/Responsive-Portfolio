@@ -115,12 +115,11 @@ a:hover {
     color: white  
 }
 
-@media screen and (max-width:600px) {
-    #container {
-        background: black
+@media screen and (max-width: 768px) {
+    body {
+        background-color: aqua
     }
 }
-
 /* Diseño de contact.html */
 #format {
     height: 500px;
@@ -150,7 +149,6 @@ a:hover {
     font-size: 10pt;
 
 }
-
 /* Diseño de portfolio.html */
 
 img {
@@ -240,3 +238,140 @@ img:hover {
     text-align: center
 }
 
+@media screen and (max-width: 980px){
+    #container{
+      width: 900px
+
+    } 
+    footer {
+        width: 960px;
+    }
+    #cont2 {
+        width: 860px;
+        
+    }
+    #format {
+        width: 899px;
+       
+    }
+    #message {
+        width: 850px;
+    }
+
+
+}
+@media screen and (max-width: 768px){
+    #container{
+        width: 670px;
+        height: 900px;
+  
+      } 
+    #cont2 {
+        width: 646px;
+        
+    }
+    #MyName {
+        font-size: 17px
+    }
+    footer {
+        width: 716px;
+    }
+    body {
+        width: 700px
+    }
+    #format {
+        width: 674px;
+       
+    }
+    #message {
+        width: 640px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 640px){
+    #container{
+        width: 620px;
+        height: 1300px;
+
+    }
+    img{
+        margin-left: 20%
+
+    }
+    p {
+        margin-top: 75%
+    }
+    #mediaq0 {
+        margin-top: -73%;
+        margin-bottom: 3%
+        
+    }
+    #mediaq1 {
+        margin-top: 2%
+        
+    }
+    #mediaq2 {
+        margin-top: 2%
+        
+    }
+    #mediaq3 {
+        margin-top: 2%
+        
+    }
+    footer {
+        width: 658px;
+    }
+
+    #cont2 {
+        width: 597px;
+        
+    }
+    #MyName {
+        font-size: 15px
+    }
+    #button {
+        font-size: 15px;
+        
+    }
+    body {
+        width: 580px;
+    }
+    #contenido1 {
+        left: 69%
+    }
+    #contenido2 {
+        left: 69%
+    }
+    #contenido3 {
+        left: 69%
+    }
+    #contenido4 {
+        left: 69%
+    }
+    #contenido5 {
+        left: 69%
+    }
+    #vr {
+        left:15%
+    }
+    #Ipad {
+        left:15%
+    }
+    #gadget {
+        left:15%
+    }
+    #tech {
+        left:15%
+    }
+    #nod {
+        left:15%
+    }
+    #format {
+        width: 621px;
+    }
+    #message {
+        width: 600px;
+    }
+}
